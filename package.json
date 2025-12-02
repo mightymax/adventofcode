@@ -1,0 +1,29 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Code to solve puzzles from https://adventofcode.com/",
+  "homepage": "https://github.com/mightymax/adventofcode#readme",
+  "bugs": {
+    "url": "https://github.com/mightymax/adventofcode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightymax/adventofcode.git"
+  },
+  "license": "EUPL-1.2",
+  "author": "Mark Lindeman",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}

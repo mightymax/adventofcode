@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"rewriteRelativeImportExtensions": true,
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"moduleResolution": "nodenext",
+    "module": "nodenext",
+    "target": "esnext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+	}
+}
